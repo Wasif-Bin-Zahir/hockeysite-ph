@@ -1,0 +1,102 @@
+*{
+    padding: 0 50px;
+}
+
+
+
+
+/* navbar styles */
+/* Custom styles can be added here */
+/* Example: */
+.navbar {
+  background-color: white;
+  color: #fff;
+}
+
+.navbar a {
+  color: #0c0c0c;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+
+.navbar-logo {
+  width: 50px; /* Set your logo width */
+}
+
+.get-ticket-btn {
+  background-color: red; /* Red color */
+  color: #fff;
+}
+
+/* slider section styles  */
+
+/* Custom styles can be added here */
+/* Example: */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+}
+
+.slider-btns {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 60px; /* Adjust as needed */
+}
+
+.black-background {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  width: 40%; /* Adjust as needed */
+}
+
+@media (max-width: 768px) {
+  /* Mobile styles */
+  .slider-btns {
+    bottom: 0;
+    transform: none;
+    width: 100%;
+  }
+
+  .black-background {
+    position: relative;
+    width: 100%;
+  }
+}
+
+/* professional hockey section  */
+
+.mother {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  /* Mobile styles */
+  .nested-divs {
+    flex-direction: column;
+  }
+
+  .nested-div {
+    width: 100%;
+  }
+}
