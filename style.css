@@ -1,4 +1,20 @@
 /* navbar styles */
+
+*body{
+  max-width:  1440px;
+max-height: 6195px;
+  width: 100%;
+  height: 100%;
+  margin: 0; /* Space from this element (entire page) and others*/
+  padding: 0; /*space from content and border*/
+  border: solid blue;
+  border-width: thin;
+  overflow:hidden;
+  display:block;
+}
+.font-manrope{
+  font-family: 'Manrope', sans-serif;
+}
 /* Custom styles can be added here */
 /* Example: */
 .navbar {
